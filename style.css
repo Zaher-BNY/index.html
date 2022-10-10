@@ -1,0 +1,130 @@
+
+*{
+    font-family: 'roboto', sans-serif;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    
+}
+.nav{
+height:50vh;
+width: 100%;
+background-size: cover;
+background-position: center;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%; 
+}
+.logo{
+    color: white;
+    font: size 150px;;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    
+
+}
+span{
+    color: yellow;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    align-items: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+color: yellow;
+transition: 0.4s;
+}
+.search form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid yellow;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 500px;
+}
+.search{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+    
+
+}
+
+
+
+.search form input:last-child{
+position:absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color :yellow;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 106px;
+    right: -495px; 
+ 
+    
+}
+
+
+.container{
+color: aliceblue;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: larger;
+font-weight: bold;
+font-style: italic;
+}
+p{
+    font-size: medium;
+    color: aliceblue;
+}
+.about{
+    color: white;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif; 
+    font-style: normal;
+    padding: 1%;
+    font-weight: lighter;
+}
+h2{
+
+    color: yellow;
+    font-size: large;
+    font-weight: 500;
+
+}
+.table{
+color: white;
+
+}
+h3{
+    color: yellow;
+    font-size: large;
+    font-weight: 500;
+    
+}
+.mail {
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.mail:hover{
+    color: yellow;
+}
